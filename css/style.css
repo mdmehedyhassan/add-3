@@ -1,0 +1,27 @@
+body{
+    font-family: 'Roboto', sans-serif;  
+}
+.box-shadow-style{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px gray, -3px -3px 10px gray;
+}
+.box-shadow-style:hover{
+    box-shadow: 3px 3px 10px black, -3px -3px 10px black;
+}
+#special-offer-div{
+    background-color: rgb(50, 50, 255);
+    margin-top: -40px;
+    padding: 20px 8px 40px 8px;
+    color: white;
+    border-radius: 10px;
+}
+
+.main-div-special:hover{
+    background-color: rgb(255, 0, 0);
+    margin-top: -40px;
+    padding: 20px 8px;
+    color: white;
+    border-radius: 10px;
+}
