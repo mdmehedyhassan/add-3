@@ -1,5 +1,6 @@
 body{
-    font-family: 'Roboto', sans-serif;  
+    font-family: 'Roboto', sans-serif;
+    background: rgb(237, 237, 237);  
 }
 .box-shadow-style{
     margin: 10px;
@@ -24,4 +25,20 @@ body{
     padding: 20px 8px;
     color: white;
     border-radius: 10px;
+}
+.accordion-item-style{
+    margin: 10px 0;
+    box-shadow: 3px 3px 10px rgb(186, 186, 186), -3px -3px 10px rgb(191, 191, 191);
+}
+
+#gift-box{
+    position: fixed;
+    bottom: 30%;
+    right: 10%;
+    border-left: 5px solid blue;
+    padding: 0 10px;
+    background: white;
+}
+#gift-box:active{
+    display: none;
 }
