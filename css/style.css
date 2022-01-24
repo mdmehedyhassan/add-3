@@ -18,14 +18,17 @@ body{
     color: white;
     border-radius: 10px;
 }
-
-.main-div-special:hover{
-    background-color: rgb(255, 0, 0);
-    margin-top: -40px;
-    padding: 20px 8px;
-    color: white;
+#special-offer-hot {
+    width: 50px;
     border-radius: 10px;
+    text-align: center;
+    margin-top: -30px;
+    margin-left: 70%;
+    background-color: red;
+    font-size: 16px;
+    font-weight: bold;
 }
+
 .accordion-item-style{
     margin: 10px 0;
     box-shadow: 3px 3px 10px rgb(186, 186, 186), -3px -3px 10px rgb(191, 191, 191);
@@ -33,12 +36,9 @@ body{
 
 #gift-box{
     position: fixed;
-    bottom: 30%;
+    bottom: 35%;
     right: 10%;
-    border-left: 5px solid blue;
+    border-left: 8px solid blue;
     padding: 0 10px;
     background: white;
-}
-#gift-box:active{
-    display: none;
 }
